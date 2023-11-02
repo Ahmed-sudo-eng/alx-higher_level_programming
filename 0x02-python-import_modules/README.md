@@ -12,4 +12,6 @@
 
 100-my_calculator:  a program that imports all functions from the file calculator_1.py and handles basic operations.
 
+101-easy_print.py: a program that prints #pythoniscool, followed by a new line in the standard output.
+
 102-magic_calculation.py: the code in it has result from converting bytecode to python language.
