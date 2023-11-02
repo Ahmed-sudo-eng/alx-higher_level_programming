@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-print("#pythoniscool")
+os.system('echo "#pythoniscool"')
