@@ -15,3 +15,5 @@
 101-easy_print.py: a program that prints #pythoniscool, followed by a new line in the standard output.
 
 102-magic_calculation.py: the code in it has result from converting bytecode to python language.
+
+103-fast_alphabet.py: a program that prints the alphabet in uppercase, followed by a new line.
