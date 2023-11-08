@@ -11,3 +11,4 @@
 10-best_score.py: a function that returns a key with the biggest integer value
 11-multiply_list_map.py: a function that returns a list with all values multiplied by a number without using any loops
 100-weight_average.py: a function that returns the weighted average of all integers tuple
+101-square_matrix_map.py: a function that computes the square value of all integers of a matrix using map
