@@ -16,7 +16,7 @@ class Square:
 
     def size(self):
         """ a getter to retrieve the size """
-            return self.__size
+        return self.__size
 
     def size(self, value):
         """ a setter to set the size """
