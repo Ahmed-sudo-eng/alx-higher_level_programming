@@ -4,3 +4,4 @@
 3-square.py: a class Square that defines a square by: size
 4-square.py: a class Square that defines a square by: size
 5-square.py: a class Square that defines a square by: size
+6-square.py: a class Square that defines a square by: size
