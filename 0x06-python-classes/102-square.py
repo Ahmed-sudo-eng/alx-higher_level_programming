@@ -27,3 +27,23 @@ class Square:
     def area(self):
         """ Calculate the area """
         return self.__size ** 2
+
+    def __eq__(self, other):
+        """ check equallity for areas """
+        return self.area() == other.area()
+
+    def __gt__(self, other):
+        """ check if self area greater than or equal other area """
+        return self.area() > other.area()
+
+    def __ge__(self, other):
+        """ check if self area greater than other area """
+        return self.area() >= other.area()
+
+    def __lt__(self, other):
+        """ check if self area less than other area """
+        return self.area() < other.area()
+
+    def __le__(self, other):
+        """ check if self area less than or equal other area """
+        return self.area() <= other.area()
