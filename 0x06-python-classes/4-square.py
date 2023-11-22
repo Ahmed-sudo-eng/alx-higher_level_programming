@@ -6,23 +6,19 @@ class Square:
     """ This class defines a square by it's size """
 
     def __init__(self, size=0):
-        """ Initialize the size """
+        self.__size = size
+
+    @property
+    def size(self):
+        return self.__size
+    @size.setter
+    def size(self, size):
         if type(size) is not int:
             raise TypeError('size must be an integer')
         elif size < 0:
             raise ValueError('size must be >= 0')
         else:
-            self.size = size
             self.__size = size
 
-    def size(self):
-        """ a getter to retrieve the size """
-        return self.size
-
-    def size(self, value):
-        """ a setter to set the size """
-        self.size = value
-
     def area(self):
-        """ Calculate the area and returns it """
-        return self.size ** 2
+        return self.__size ** 2
