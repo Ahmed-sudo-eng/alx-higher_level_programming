@@ -51,6 +51,6 @@ class SinglyLinkedList:
 
     def __str__(self):
         """ A string representing the class """
-        for i in self.__head:
+        for i in self.__head[:len(self.__head) - 1]:
             print(i)
-        return ""
+        return str(self.__head[-1])
