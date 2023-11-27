@@ -8,3 +8,4 @@
 7-rectangle.py: a module that contains a class Rectangle that defines a rectangle.
 8-rectangle.py: a module that contains a class Rectangle that defines a rectangle.
 9-rectangle.py: a module that contains a class Rectangle that defines a rectangle.
+101-nqueens.py: a program that solves the N queens problem
