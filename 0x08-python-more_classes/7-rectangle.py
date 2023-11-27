@@ -64,10 +64,10 @@ class Rectangle:
         else:
             for h in range(self.__height):
                 for w in range(self.__width):
-                    #if self.print_symbol:
-                    #    print(self.print_symbol, end='')
-                    #else:
-                    print(Rectangle.print_symbol, end='')
+                    if self.print_symbol:
+                        print(self.print_symbol, end='')
+                    else:
+                        print(Rectangle.print_symbol, end='')
                 if h < (self.__height - 1):
                     print()
                 else:
