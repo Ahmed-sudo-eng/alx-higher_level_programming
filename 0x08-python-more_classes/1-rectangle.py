@@ -28,13 +28,13 @@ class Rectangle:
             self.__width = value
 
     @property
-    """Retrieve the height"""
     def height(self):
+        """Retrieve the height"""
         return self.__height
 
     @height.setter
-    """Set the height"""
     def height(self, value):
+        """Set the height"""
         if type(value) is not int:
             raise TypeError('height must be an integer')
         elif value < 0:
