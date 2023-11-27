@@ -7,3 +7,4 @@
 6-rectangle.py: a module that contains a class Rectangle that defines a rectangle.
 7-rectangle.py: a module that contains a class Rectangle that defines a rectangle.
 8-rectangle.py: a module that contains a class Rectangle that defines a rectangle.
+9-rectangle.py: a module that contains a class Rectangle that defines a rectangle.
