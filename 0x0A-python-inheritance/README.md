@@ -16,3 +16,5 @@ otherwise False
 7-base_geometry.py:  BaseGeometry class with public instance methods area, integer_validator
 
 8-rectangle.py: Rectangle class that inherits from BaseGeometry
+
+9-rectangle.py: Rectangle class that inherits from BaseGeometry
