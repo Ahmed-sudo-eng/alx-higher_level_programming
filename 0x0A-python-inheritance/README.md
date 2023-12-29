@@ -10,3 +10,5 @@ otherwise False
 4-inherits_from.py: a function that returns True if the object is an instance of a class that inherited (directly or indirectly) from the specified class; otherwis False
 
 5-base_geometry.py: an empty class BaseGeometry
+
+6-base_geometry.py: BaseGeometry class with public instance method area
