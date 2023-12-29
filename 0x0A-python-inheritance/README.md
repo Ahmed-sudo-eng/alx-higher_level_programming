@@ -24,3 +24,5 @@ otherwise False
 11-square.py: Square class that inherits from Rectangle
 
 100-my_int.py: MyInt class inherits from int
+
+101-add_attribute.py: This function adds a new attribute to an object if it's possible
