@@ -20,3 +20,5 @@ otherwise False
 9-rectangle.py: Rectangle class that inherits from BaseGeometry
 
 10-square.py: Square class that inherits from Rectangle
+
+11-square.py: Square class that inherits from Rectangle
