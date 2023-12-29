@@ -12,3 +12,5 @@ otherwise False
 5-base_geometry.py: an empty class BaseGeometry
 
 6-base_geometry.py: BaseGeometry class with public instance method area
+
+7-base_geometry.py:  BaseGeometry class with public instance methods area, integer_validator
