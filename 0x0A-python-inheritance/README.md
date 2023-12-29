@@ -22,3 +22,5 @@ otherwise False
 10-square.py: Square class that inherits from Rectangle
 
 11-square.py: Square class that inherits from Rectangle
+
+100-my_int.py: MyInt class inherits from int
