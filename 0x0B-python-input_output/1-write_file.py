@@ -6,7 +6,7 @@ a text file and return the number of characters written
 
 
 def write_file(filename="", text=""):
-    """ This function writes a text to file and return the n of c's written """
+    """ Writes a text to file and return the number of characters written """
     with open(filename, mode='w', encoding='utf-8') as f_obj:
         wc = f_obj.write(text)
     return wc
