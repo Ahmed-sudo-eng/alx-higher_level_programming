@@ -9,6 +9,7 @@ load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
 
 my_list = []
 old_list = load_from_json_file('add_item.json')
+""" old_list is a very beautiful """
 """
 for item in old_list:
     my_list.append(item)
