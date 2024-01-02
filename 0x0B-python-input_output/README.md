@@ -17,3 +17,5 @@
 8-class_to_json.py: a function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object
 
 9-student.py: a class Student that defines a student by first_name, last_name and age
+
+10-student.py: a class Student that defines a student by first_name, last_name and age
