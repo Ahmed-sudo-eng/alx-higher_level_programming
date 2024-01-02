@@ -8,9 +8,7 @@ save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
 load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
 
 my_list = []
-""" old_list is a very beautiful """
-old_list = load_from_json_file('add_item.json') # old_list is for storing the list
-"""
+#old_list = load_from_json_file('add_item.json')
 for item in old_list:
     my_list.append(item)
 for arg in sys.argv:
@@ -20,4 +18,3 @@ for arg in sys.argv:
         my_list.append(arg)
 
 save_to_json_file(my_list, 'add_item.json')
-"""
