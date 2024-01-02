@@ -1,20 +1,13 @@
 #!/usr/bin/python3
-import sys
-save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
-load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
 """
-This module adds all arguments to a python list, and then save them to a file
+This module contains a function "load_from_json_file" which creates an object
+from a "JSON" file
 """
+import json
 
 
-my_list = []
-old_list = load_from_json_file('add_item.json')
-for item in old_list:
-    my_list.append(item)
-for arg in sys.argv:
-    if (arg == sys.argv[0]):
-        pass
-    else:
-        my_list.append(arg)
-
-save_to_json_file(my_list, 'add_item.json')
+def load_from_json_file(filename):
+    """ Creates an Object from a JSON file """
+    with open(filename, mode='r', encoding='utf-8') as f_obj:
+        obj = json.load(f_obj)
+        return obj
