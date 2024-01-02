@@ -22,4 +22,7 @@ class Student:
                         my_dict[key] = self.__dict__[key]
             return my_dict
         else:
-            return self.__dict__
+            if attrs is None:
+                return self.__dict__
+            else:
+                return {}
