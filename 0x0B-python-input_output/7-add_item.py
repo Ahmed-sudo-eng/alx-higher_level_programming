@@ -17,4 +17,4 @@ for arg in sys.argv:
     else:
         my_list.append(arg)
 
-save_to_json_file(my_list, 'add_item.json')
+#save_to_json_file(my_list, 'add_item.json')
