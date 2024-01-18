@@ -32,4 +32,4 @@
 
 15-groups.sql: a script that lists the number of records with the same score in the table second_table of the database 'hbtn_0c_0' in your MySQL server.
 
-
+16-no_link.sql: a script that lists all records of the table 'second_table' of the database 'hbtn_0c_0' in your MySQL server.
