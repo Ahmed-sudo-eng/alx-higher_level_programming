@@ -20,6 +20,8 @@
 
 10-top_score.sql: a script that lists all records of the table 'second_table' of the database 'hbtn_0c_0' in your MySQL server.
 
-11-best_score.sql: a script that lists all the records with a score>=10 in the table 'second_table' of the database 'hbtn_0c_0' in your MySQL server.
+11-best_score.sql: a script that lists all the records with a score >= 10 in the table 'second_table' of the database 'hbtn_0c_0' in your MySQL server.
 
 12-no_cheating.sql: a script that updates the score of Bob to 10 in the 'second_table'.
+
+13-change_class.sql: a script that all records with score <= 5 in the table second_table of the database 'hbtn_0c_0' in youe MySQL server.
