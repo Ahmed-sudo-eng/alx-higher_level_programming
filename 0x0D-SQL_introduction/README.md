@@ -37,3 +37,5 @@
 100-move_to_utf8.sql: a script that converts hbtn_0c_0 database to UTF8
 
 101-avg_temperatures.sql: a script that displays the average temperature by city ordered by temperature
+
+103-max_state.sql: a script that displays the max temperature of each state (ordered by State name).
